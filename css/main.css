@@ -37,7 +37,7 @@ body {
 .cart-img {
     position: absolute;
     top: 18px;
-    right: 7px;
+    right: 25px;
 }
 .num {
     color: #fff;
@@ -195,26 +195,26 @@ body {
 }
 .history-holder {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.history-images {
+/* .history-images {
     position: relative;
 }
 .images-1 {
     position: absolute;
     z-index: 0;
     top: 20px;
-    left: -735px;
+    left: -635px;
 }
 .images-2 {
     position: absolute;
     z-index: 999;
     top: -120px;
-    left: -555px;
+    left: -455px;
 }
 .images-3 {
     position: absolute;
     z-index: 999;
     top: 200px;
-    left: -489px;
-}
+    left: -389px;
+} */
