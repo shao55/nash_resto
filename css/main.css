@@ -364,3 +364,72 @@ body {
 .comment-type {
     font-weight: 600;
 }
+.galery-title {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    text-align: center;
+}
+.galery-title span {
+    color: #D67E34;
+}
+.galery {
+    padding: 100px 0;
+}
+.galery-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.galery-left {
+    margin-right: 20px;
+}
+.galery-down, 
+.galery-up {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.cook-title {
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.cook-title span {
+    color: #D67E34;
+}
+.cook-content {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.footer {
+    background-image: url(../img/footer.png);
+    padding: 50px 0;
+    color: #FFFFFF;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 1500px) {
+    .galery-content {
+        display: block;
+    }
+    .img-gal,
+    .galery-up,
+    .galery-down {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-gal {
+        margin-bottom: 20px;
+    }
+    .galery-left {
+        margin-right: 0;
+    }
+    .card {
+        margin-top: -30px;
+    }
+
+}
